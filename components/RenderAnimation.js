@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text, Image, ScrollView } from 'react-native';
 
+
 export default function RenderAnimation() {
   return (
     <View style={styles.container}>
@@ -28,47 +29,75 @@ export default function RenderAnimation() {
             style={styles.image}
           />
           <Image
-            source={require('../assets/images/wallpaper_1.jpg')}
+            source={require('../assets/images/wallpaper_6.jpg')}
             style={styles.image}
           />
           <Image
-            source={require('../assets/images/wallpaper_2.jpg')}
+            source={require('../assets/images/wallpaper_7.jpg')}
             style={styles.image}
           />
           <Image
-            source={require('../assets/images/wallpaper_3.jpg')}
+            source={require('../assets/images/wallpaper_8.jpg')}
             style={styles.image}
           />
           <Image
-            source={require('../assets/images/wallpaper_4.jpg')}
+            source={require('../assets/images/wallpaper_9.jpg')}
+            style={styles.image}
+          />
+        <Image
+            source={require('../assets/images/wallpaper_10.jpg')}
+            style={styles.image}
+          />
+        <Image
+            source={require('../assets/images/wallpaper_11.jpg')}
             style={styles.image}
           />
           <Image
-            source={require('../assets/images/wallpaper_5.jpg')}
+            source={require('../assets/images/wallpaper_13.jpg')}
             style={styles.image}
           />
           <Image
-            source={require('../assets/images/wallpaper_1.jpg')}
+            source={require('../assets/images/wallpaper_14.jpg')}
             style={styles.image}
           />
           <Image
-            source={require('../assets/images/wallpaper_2.jpg')}
+            source={require('../assets/images/wallpaper_15.jpg')}
             style={styles.image}
           />
           <Image
-            source={require('../assets/images/wallpaper_3.jpg')}
+            source={require('../assets/images/wallpaper_16.jpg')}
             style={styles.image}
           />
           <Image
-            source={require('../assets/images/wallpaper_4.jpg')}
+            source={require('../assets/images/wallpaper_17.jpg')}
             style={styles.image}
           />
           <Image
-            source={require('../assets/images/wallpaper_5.jpg')}
+            source={require('../assets/images/wallpaper_18.jpg')}
+            style={styles.image}
+          />
+          <Image
+            source={require('../assets/images/wallpaper_19.jpg')}
+            style={styles.image}
+          />
+          <Image
+            source={require('../assets/images/wallpaper_20.jpg')}
+            style={styles.image}
+          />
+          <Image
+            source={require('../assets/images/wallpaper_21.jpg')}
+            style={styles.image}
+          />
+          <Image
+            source={require('../assets/images/wallpaper_22.jpg')}
+            style={styles.image}
+          />
+          <Image
+            source={require('../assets/images/wallpaper_23.jpg')}
             style={styles.image}
           />
         </View>
-        <Text style={styles.text}>Elo pomelo sukinsynie!</Text>
+        <Text style={styles.text}>Elo pomelo!</Text>
       </ScrollView>
     </View>
   );

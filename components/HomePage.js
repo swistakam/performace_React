@@ -20,6 +20,11 @@ export default function HomePage({ navigation }) {
         title="Spin" 
         onPress={() => navigation.navigate('Spin')} 
         />
+        <View style={styles.separator} />
+        <Button
+        title='Gifs'
+        onPress={() => navigation.navigate('Gifs')}
+        />
       </View>
     </View>
   );
